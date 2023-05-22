@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!--<div class="rectangle"> </div>-->
+<div class="header">
+    <div class="container">
+<img class="logo" src="img/logo.png" alt="Логотип">
+<!--        <h1>HOME<span>W</span>ORKS</h1>-->
+    </div>
+</div>
+
+<section class="main">
+
+    <div class="container">
+
+        <div class="main-left">
+            <div class="main-left-title">
+                Get your free account
+            </div>
+            <div class="main-left-text toRemove9">
+                Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.
+            </div>
+
+
+<!--            <form class="main-action" action="https://webhook.site/f460a5f0-6404-4b62-b604-501552bc06c5/">-->
+            <form class="main-action">
+                <div class="toRemove3">
+                    <label>
+                        <span class="main-input-title" >Full Name</span>
+                        <br>
+                        <input class="fn-input main-input-text" id="full-name-input" type="text" name="FullName">
+                        <div class="error-input">Может содержать только буквы и пробел</div>
+                    </label>
+                </div>
+                <div class="toRemove7">
+                    <label>
+                        <span class="main-input-title">Your username</span>
+                        <br>
+                        <input class="yu-name main-input-text" id="your-un" type="text" name="Username">
+                        <div class="error-input" id="erIn">Необходимо ввести логин пользователя, может содержать только буквы, цифры, тире и символ подчеркивания</div>
+                        <div class="error-input" id="erInLogin">Введите ваш логин</div>
+                    </label>
+                </div>
+                <div class="toRemove2">
+                    <label>
+                        <span class="main-input-title">E-mail</span>
+                        <br>
+                        <input class="email-input main-input-text" id="input_eMail" type="text" name="E-mail">
+                        <div class="error-input">Необходимо ввести корректный электронный адрес</div>
+                    </label>
+                </div>
+                <div class="toRemove8">
+                    <label>
+                        <span class="main-input-title">Password</span>
+                        <br>
+                        <input class="input_pw main-input-text" id="input_pw" type="password" name="Password">
+                        <div class="error-input" id="erPas">Пароль должен быть не менее 8 символов, минимум иметь 1 большую букву,одну цифру,один спецсимвол</div>
+                        <div class="error-input" id="erPasLogin">Введите свой пароль</div>
+                    </label>
+                </div>
+                <div class="toRemove1">
+                    <label>
+                        <span class="main-input-title">Repeat Password</span>
+                        <br>
+                        <input class="input_rpw main-input-text" id="input_rpw" type="password" name="RepeatPassword">
+                        <div class="error-input">Пароли должны совпадать!</div>
+                    </label>
+                </div>
+                <div class="toRemove4">
+                    <label>
+                        <input class="checkbox" id="checkbox" type="checkbox" name="Privacy" value="Agree"><span class="main-input-chk">Agree to our Terms of Service and Privacy Statement</span>
+                        <div class="error-input error-input-chk" id="Check">Согласитесь с нашими Условиями обслуживания и Заявлением о конфиденциальности</div>
+                    </label>
+                </div>
+                <button class="button" id="button" type="button">Sign Up</button>
+            </form>
+            <a class="link toRemove9">Already have an account?</a>
+        </div>
+
+        <div class="main-right">
+            <img class="main-right__rocket-img" src="img/img.png" alt="Изображение">
+        </div>
+
+    </div>
+
+</section>
+
+
+<script src="scripts/jquery-3.6.0.min.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
